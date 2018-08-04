@@ -10,12 +10,23 @@ h5,
 h6 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  font-family: "Merriweather", serif;
+}
+
+.primary {
+  background-color: #12cc94;
+  color: white;
+}
+
+.secondary {
+  background-color: white;
+  color: #6088bb;
+  border: 1px solid #6088bb;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
