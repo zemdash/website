@@ -24,6 +24,12 @@ h6 {
   border: 1px solid #6088bb;
 }
 
+@media (max-width: 768px) {
+  .navbar-brand svg {
+    width: 100px;
+  }
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;

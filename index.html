@@ -27,15 +27,14 @@
 </head>
 
 <body>
-
   <!-- Navigation -->
-  <nav class="navbar navbar-light bg-light static-top">
+  <nav class="navbar navbar-light bg-secondary fixed-top navbar-expand-lg bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" id="test" href="#">
         <svg xmlns="http://www.w3.org/2000/svg" width="174" height="47" viewBox=" 0 0 174 47 ">
           <defs>
-            <path id="a " d="M16.933 29.788V.187H.134v29.6h16.8z " />
-            <path id="c " d="M43.835 29H0V.031h43.835z " />
+            <path id="a" d="M16.933 29.788V.187H.134v29.6h16.8z " />
+            <path id="c" d="M43.835 29H0V.031h43.835z " />
           </defs>
           <g fill="none " fillRule="evenodd ">
             <path fill="#333 " d="M58.615 17.637c-1.734 0-3.098.5-4.092 1.5-.995 1-1.612 2.386-1.854 4.158h11.106c0-.832-.114-1.594-.343-2.285a5.101
@@ -112,14 +111,14 @@
         <div class="col-xl-9 mx-auto ">
           <h1 class="mb-5 ">See your client real time accounting information in minute</h1>
           <p class="lead mb-5 ">Instant Accurate and actionable reports to make the final decision</p>
-          <button class='btn btn-lg primary'>Learn more</button>
+          <a class="btn btn-lg primary js-scroll-trigger" href="#features">Learn more</a>
         </div>
       </div>
     </div>
   </header>
 
   <!-- Icons Grid -->
-  <section class="features-icons bg-light text-center ">
+  <section class="features-icons bg-light text-center " id="features">
     <div class="container ">
       <div class="row ">
         <div class="col-lg-4 ">
@@ -240,6 +239,9 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js "></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
+  <!-- custom JavaScript -->
+  <script src="js/global.js"></script>
 
 </body>
 
