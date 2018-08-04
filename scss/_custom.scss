@@ -2,14 +2,33 @@
   background-color: #12cc94;
   color: white;
 }
+.primary:hover {
+  color: white;
+  background-color: #19c28f;
+}
 .secondary {
   background-color: white;
   color: #6088bb;
   border: 1px solid #6088bb;
 }
+.main-card {
+  background-color: #6088bb;
+  padding: 100px 20px 100px 20px;
+  border-radius: 5px;
+}
+.main-section {
+  padding-top: 8em;
+}
+a,
+.icon-blue {
+  color: #6088bb;
+}
 
+.grey {
+  background-color: #f6f6f6;
+}
 @media (max-width: 768px) {
   .navbar-brand svg {
-    width: 100px;
+    width: 150px;
   }
 }
