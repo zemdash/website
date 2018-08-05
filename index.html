@@ -25,11 +25,13 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123389611-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    if (location.hostname !== 'localhost') {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-    gtag('config', 'UA-123389611-1');
+      gtag('config', 'UA-123389611-1');
+    }
   </script>
 
 </head>
@@ -108,6 +110,7 @@
           </g>
         </svg>
       </a>
+      <a class="btn secondary" href="https://app.zemdash.com/signin">Log In</a>
     </div>
   </nav>
 
